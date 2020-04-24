@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="carroussel.css" />
     <title>Portfolio</title>
 </head>
 <body>
@@ -87,14 +88,14 @@
         <h2 id="techno">Technologies</h2>
         <p class="ss-titre"><em>Création de sites Web du front au back-end, du site from scratch au CMS</em></p>
         <div class="wrapper-1">
-            <div class="one-1">
+            <div class="one-1 align_grid_tech box">
                 <figure>
                     <img src="images/html_img.png" alt="logo_html" />
                     <figcaption>HTML 5</figcaption>
                 </figure>
                 <p class="text-logo">J'utilise les techniques les plus récentes pour un rendu html inégalable et précis.</p>
             </div>
-            <div class="two-1">
+            <div class="two-1 align_grid_tech box">
                 <figure>
                     <img src="images/css_img.png" alt="logo_css" />
                     <figcaption>CSS 3</figcaption>
@@ -102,7 +103,7 @@
 
                 <p class="text-logo">La forme de vos pages web sera adaptée au pixel près grâce aux techniques css.</p>
             </div>
-            <div class="three">
+            <div class="three align_grid_tech box">
                 <figure>
                     <img src="images/js_img.png" alt="logo_css" />
                     <figcaption>Javascript</figcaption>
@@ -110,7 +111,7 @@
 
                 <p class="text-logo">Sans élément dynamiques dans votre site, il vous manquera le côté intéractif.</p>
             </div>
-            <div class="four">
+            <div class="four align_grid_tech box">
                 <figure>
                     <img src="images/php_img.png" alt="logo_php" />
                     <figcaption>Php</figcaption>
@@ -118,7 +119,7 @@
 
                 <p class="text-logo" id="text_php">Php est incontournable en programmation et afin d'intéragir avec les bases de données.</p>
             </div>
-            <div class="five">
+            <div class="five align_grid_tech box">
                 <figure>
                     <img src="images/mysql_img.png" alt="logo_mysql" />
                     <figcaption>Mysql</figcaption>
@@ -126,7 +127,7 @@
 
                 <p class="text-logo" >Pas de site web sans donnée, MySql est l'indispensable complément de Php.</p>
             </div>
-            <div class="six">
+            <div class="six align_grid_tech box">
                 <figure>
                     <img src="images/jquery_v2.png" alt="logo_jquery" />
                     <figcaption>Bootstrap/Jquery</figcaption>
@@ -134,7 +135,7 @@
 
                 <p class="text-logo" id="text_bootstrap">Le couple gagnant du Web, utilisé dans la majorité des sites internet, apportant rapidité et efficacité.</p>
             </div>
-            <div class="seven">
+            <div class="seven align_grid_tech box">
                 <figure>
                     <img src="images/wordpress_img.png" alt="logo_wordpress" />
                     <figcaption>Wordpress</figcaption>
@@ -142,7 +143,7 @@
 
                 <p class="text-logo">Les possibilités de personnalisation sont infinis grâce à ce Content Manager System.</p>
             </div>
-            <div class="eight">
+            <div class="eight align_grid_tech box">
                 <figure>
                     <img src="images/symfony_img.png" alt="logo_symfony" />
                     <figcaption>Symfony</figcaption>
@@ -156,6 +157,107 @@
     <section>
         <h2 id="projets">Projets récents</h2>
         <p class="ss-titre"><em>Retrouvez tous mes projets en détail en cliquant dessus !</em></p>
+
+        <div class="wrapper-2">
+            <div class="one-2 align_grid box text_projet">
+                <a href="#openModal"><img src="images/alumni-1.png" alt="logo_symfony" />
+                    <h3>Symfony</h3>
+                    <p>Alumni : annuaire des anciens élèves du GRETA<br>
+                    Projet réalisé en formation Développeur Web et Web Mobile.</p>
+                </a>
+                <div id="openModal" class="modalDialog">
+                    <div>
+                        <a href="#close" title="Close" class="close">Fermer</a>
+                        <h2 class='hanamiH2'>Symfony</h2>
+                        <div class="slider">
+                            <div class="container">
+                                <div id="slider">
+                                    <div class="item">
+                                        <div class="item__image">
+                                            <img src="images/al_3.PNG" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item__image">
+                                            <img src="images/al_1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item__image">
+                                            <img src="images/al_2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item__image">
+                                            <img src="images/al_4.PNG" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item__image">
+                                            <img src="images/al_5.PNG" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="two-2 align_grid box text_projet">
+                <a href="#openModal1"><img src="images/hy_1.PNG" alt="Accueil du site hydratis" />
+                    <h3>From Scratch</h3>
+                    <p>Hydratis : projet de fin d'études Développeur Web et Web Mobile.<br>
+                        Site en l  igne hydratis.e-partenaire.fr</p>
+                    <small>Retrouvez le projet complet en PDF ici</small>
+                </a>
+                <div id="openModal1" class="modalDialog">
+                    <div>
+                        <a href="#close" title="Close" class="close">Fermer</a>
+                        <h2 class='hanamiH2'>Hydratis</h2>
+                        <div class="slider">
+                            <div class="container">
+                                <div id="slider1">
+                                    <div class="item">
+                                        <div class="item__image">
+                                            <img src="images/hy_1.PNG" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item__image">
+                                            <img src="images/hy_2.PNG" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item__image">
+                                            <img src="images/hy_3.PNG" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item__image">
+                                            <img src="images/hy_4.PNG" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item__image">
+                                            <img src="images/hy_5.PNG" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="three-2 align_grid box text_projet">
+                <a href="#openModal1"><img src="images/se_1.PNG" alt="Accueil du site SECTP" />
+                    <h3>Wordpress</h3>
+                    <p>SECTP: projet de fin d'études Développeur Web et Web Mobile.<br>
+                        Site en l  igne hydratis.e-partenaire.fr</p>
+                    <small>Retrouvez le projet complet en PDF ici</small>
+                </a>
+            </div>
+        </div>
+
     </section>
     <section>
         <h2 id="contact">Contact</h2>
@@ -163,5 +265,6 @@
 
     </section>
     <script src="main.js"></script>
+    <script src="carroussel.js"></script>
 </body>
 </html>
