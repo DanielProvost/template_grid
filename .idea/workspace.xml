@@ -2,33 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95c81331-d792-489c-8eb2-335491a77d98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carroussel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carroussel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/al_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/al_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/al_3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/al_4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/al_5.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/alumni-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/deuxfilles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/femmes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fille.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gsa_1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/hy_1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/hy_2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/hy_3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/hy_4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/hy_5.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mouton.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/open.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/paysage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pub.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pub1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/se_1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/al_1_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/al_2_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/al_3_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/al_4_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/al_5_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hy_1_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hy_2_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hy_4.5_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hy_4_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hy_5_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_11.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_1_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_2_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_3_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_5.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_6.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_7.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_7_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_8.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_8_420.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/se_9.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carroussel.js" beforeDir="false" afterPath="$PROJECT_DIR$/carroussel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/main.phtml" afterDir="false" />
     </list>
@@ -93,7 +93,8 @@
       <workItem from="1587434754721" duration="11000" />
       <workItem from="1587454793554" duration="11848000" />
       <workItem from="1587524291676" duration="32367000" />
-      <workItem from="1587702094014" duration="6515000" />
+      <workItem from="1587702094014" duration="15646000" />
+      <workItem from="1587872923800" duration="8270000" />
     </task>
     <servers />
   </component>
@@ -108,15 +109,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1587643716718" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587564043288">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587872982189">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1587564043288" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1587872982189" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587434763299" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587702096699">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587872964016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1587702096699" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1587872964016" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587434754861" />
     <state x="598" y="277" key="git4idea.rebase.GitRebaseDialog" timestamp="1587538657813">
       <screen x="0" y="0" width="1536" height="824" />
@@ -126,5 +127,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="486" y="221" key="jetbrains.nodejs.interpreters-dialog/0.0.1536.824@0.0.1536.824" timestamp="1586421807087" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587715639408">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1587715639408" />
   </component>
 </project>

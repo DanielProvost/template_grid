@@ -355,10 +355,21 @@ let onReady1 = function () {
     })
 
 }
+let onReady2 = function () {
+    new Carousel(document.querySelector('#slider2'), {
+        slidesVisible: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        pagination: true
+    })
+
+}
 
 if (document.readyState !== 'loading') {
     onReady()
     onReady1()
+    onReady2()
 }
 document.addEventListener('DOMContentLoaded', onReady)
 document.addEventListener('DOMContentLoaded', onReady1)
+document.addEventListener('DOMContentLoaded', onReady2)

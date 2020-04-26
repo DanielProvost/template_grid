@@ -435,6 +435,17 @@ figcaption{
 }
 /**************************************Responsive 414********************************/
 @media(max-width: 414px){
+    .modalDialog > div{
+        height:90vh;
+    }
+    .hanamiH2{
+        font-size: 1em;
+        padding: 25px;
+    }
+    .close{
+        width:58px;
+        padding: 3px;
+    }
     #section_titre{
         height:145px;
     }
@@ -533,6 +544,9 @@ figcaption{
     }
     h2{
         font-size:1.2em;
+    }
+    .sliderH2{
+        padding:40px;
     }
     #svg2{
         top:-32px;
