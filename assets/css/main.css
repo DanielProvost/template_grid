@@ -19,7 +19,7 @@
 }
 ul{
     list-style-type: none;
-    width:300px;
+    width:400px;
 }
 a{
     text-decoration: none;
@@ -31,6 +31,9 @@ ul li{
     margin-right:2%;
     font-family: "Montserrat-Medium", sans-serif;
     letter-spacing: 1px;
+}
+nav li:hover{
+    border-top:1px grey solid;
 }
 .wrapper{
     display: grid;
@@ -454,6 +457,7 @@ footer{
     #menu{
         display: flex;
         flex-direction: column;
+        flex-grow: 0.8;
     }
     nav{
        width:100vw;
@@ -465,6 +469,7 @@ footer{
         margin-left:10%;
     }
     ul li{
+        width: 200px;
         height : 50px;
     }
     .hide{
