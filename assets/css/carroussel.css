@@ -56,7 +56,7 @@ CAROUSEL
     position: absolute;
     width: 35px;
     height: 35px;
-    background: #ffffff url(images/right.svg) center center no-repeat;
+    background: #ffffff url(../images/right.svg) center center no-repeat;
     background-size: 23px 23px;
     border-radius: 50%;
     top: 50%;
@@ -70,7 +70,7 @@ CAROUSEL
     transform: scale(1.2)
 }
 .carousel__prev {
-    background-image: url(images/left.svg);
+    background-image: url(../images/left.svg);
     right: auto;
     left: -20px;
     background-position: 4px;

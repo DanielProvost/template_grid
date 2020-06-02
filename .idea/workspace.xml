@@ -2,31 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95c81331-d792-489c-8eb2-335491a77d98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/cv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/Autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/al_1_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/al_1_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/al_2_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/al_2_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/al_3_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/al_3_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/al_4_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/al_4_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/al_5_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/al_5_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/deuxfilles.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/femmes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fille.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hy_1_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/hy_1_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hy_2_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/hy_2_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hy_4.5_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/hy_4.5_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hy_4_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/hy_4_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hy_5_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/hy_5_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mouton.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/se_1_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/se_1_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/se_2_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/se_2_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/se_3_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/se_3_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/se_6.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/se_6.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/se_7.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/se_7.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/se_7_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/se_7_420.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/se_9.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/se_9.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/main.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carroussel.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/carroussel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carroussel.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/carroussel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/Montserrat-Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/font/Montserrat-Medium.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/Montserrat-Medium.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/font/Montserrat-Medium.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/Montserrat-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/font/Montserrat-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/Montserrat-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/font/Montserrat-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/font/preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/font/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/LogoDan.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/LogoDan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/LogoDanV4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/LogoDanV4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/al_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/al_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/al_1_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/al_1_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/al_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/al_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/al_2_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/al_2_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/al_3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/al_3.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/al_3_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/al_3_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/al_4.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/al_4.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/al_4_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/al_4_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/al_5.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/al_5.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/al_5_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/al_5_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/alumni-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/alumni-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/css_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/css_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cv.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gsa_1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/gsa_1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/html_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/html_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hy_1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hy_1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hy_1_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hy_1_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hy_2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hy_2.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hy_2_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hy_2_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hy_3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hy_3.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hy_4.5_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hy_4.5_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hy_4.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hy_4.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hy_4_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hy_4_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hy_5.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hy_5.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hy_5_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hy_5_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/jquery_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/jquery_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/jquery_v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/jquery_v2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/js_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/js_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mysql_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/mysql_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/open.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/open.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/paysage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/paysage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/php_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/php_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pub.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pub.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pub1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pub1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_11.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_11.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_1_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_1_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_2.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_2_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_2_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_3.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_3_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_3_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_4.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_4.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_5.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_5.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_6.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_6.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_7.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_7.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_7_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_7_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_8.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_8.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_8_420.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_8_420.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/se_9.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/se_9.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/symfony_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/symfony_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wordpress_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/wordpress_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/views/main.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +102,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alumni" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\template_grid\assets" />
+      <recent name="C:\wamp64\www\template_grid\js" />
+      <recent name="C:\wamp64\www\template_grid\css" />
+      <recent name="C:\wamp64\www\template_grid\views" />
       <recent name="C:\wamp64\www\template_grid\images" />
     </key>
   </component>
@@ -92,7 +143,10 @@
       <workItem from="1587702094014" duration="15646000" />
       <workItem from="1587872923800" duration="9054000" />
       <workItem from="1587960941177" duration="13467000" />
-      <workItem from="1588037896358" duration="5957000" />
+      <workItem from="1588037896358" duration="7683000" />
+      <workItem from="1588059426284" duration="8405000" />
+      <workItem from="1588151339849" duration="181000" />
+      <workItem from="1591072563308" duration="3163000" />
     </task>
     <servers />
   </component>
@@ -107,16 +161,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1587643716718" />
-    <state x="-1234" y="211" key="FileChooserDialogImpl" timestamp="1587963179786">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1234" y="211" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587963179786" />
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1587872982189" />
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587434763299" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588037899244">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1588151510177">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1588037899244" />
+    <state x="-1234" y="211" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587963179786" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1588151510177" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587434763299" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588151340417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1588151340417" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587434754861" />
     <state x="598" y="277" key="git4idea.rebase.GitRebaseDialog" timestamp="1587538657813">
       <screen x="0" y="0" width="1536" height="824" />

@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('font/Montserrat-Medium.eot');
-    src: url('font/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
-    url('font/Montserrat-Medium.woff') format('woff'),
-    url('font/Montserrat-Medium.ttf') format('truetype'),
-    url('font/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    src: url('../font/Montserrat-Medium.eot');
+    src: url('../font/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../font/Montserrat-Medium.woff') format('woff'),
+    url('../font/Montserrat-Medium.ttf') format('truetype'),
+    url('../font/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
 }
@@ -115,7 +115,7 @@ h2{
 .ss-titre{
     text-align: center;
     color:#9ea5a1;
-    margin-top:-2%;
+    margin-top:-2.5%;
 }
 .wrapper-1{
     margin-top:3%;
@@ -302,7 +302,11 @@ figcaption{
     margin-right: 20%;
     padding: 19px;
     background-color: #f7f7f7;
-    border-radius:5px;
+    border-radius:20px;
+}
+.color_link{
+    color: rgb(0,108,184);
+    font-weight: bold;
 }
 .img_cv{
     width:300px;
@@ -565,7 +569,8 @@ footer{
         font-size:1.3em;
     }
     .ss-titre{
-        margin:-10% 10% 0 10%;
+        margin:-12% 10% 5% 10%;
+        font-size: 0.7em;
     }
     .wrapper-1{
         grid-template-columns: 5% repeat(2,1fr) 5%;
@@ -597,6 +602,10 @@ footer{
 }
 /**************************************Responsive 375********************/
 @media(max-width: 375px){
+    .wrapper-3{
+        margin-top:5%;
+        grid-template-rows: 200px 250px;
+    }
     h3{
         font-size:0.9em;
     }
@@ -614,7 +623,18 @@ footer{
     #text_symfony{
         line-height: 18px;
     }
-
+    #coordonnées{
+        font-size: 0.8em;
+    }
+    .img_cv{
+        width: 271px;
+        margin-left: 4%;
+    }
+    .two-3 p:first-child {
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size:0.8em;
+    }
 }
 /**************************************Responsive 320********************/
 @media(max-width: 320px){
@@ -650,7 +670,7 @@ footer{
         left:-47%;
     }
     .ss-titre{
-        margin:-14% 10% 0 10%;
+        margin:-14% 10% 5% 10%;
         font-size:0.7em;
     }
     figcaption{
