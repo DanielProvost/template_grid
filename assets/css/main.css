@@ -13,6 +13,32 @@
     margin:0;
     font-family: 'Montserrat', sans-serif;
 }
+/*
+BLOG
+*/
+#imageAvatar{
+    width: 250px;
+    height: auto;
+}
+.wrapper_blog{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.wrapper_blog_one{
+    grid-column: 3/5;
+    border:1px grey solid;
+    padding: 10px;
+    text-align: center;
+    line-height: 23px;
+}
+.wrapper_blog_one:hover{
+    box-shadow: 2px 2px 2px grey;
+}
+.title_post{
+color: #ffcc5b;
+    font-size: 1.2rem;
+}
+
 /*****************************************HEADER**********************************************/
 #logo{
     width:80%;

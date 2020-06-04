@@ -1,6 +1,35 @@
 
+<h1 style="text-align:center;padding:40px;border-top:1px lightgrey solid;">Articles récents</h1>
 
-<h1 style="text-align:center;padding:100px;">C'est la page du blog</h1>
+<!--<pre>-->
+<!--    --><?php //print_r($post); ?>
+<!--</pre>-->
+
+<article class="wrapper_blog">
+    <div class="wrapper_blog_one">
+        <h3 class="title_post">
+            <?php echo $post['Title']; ?>
+        </h3>
+        <small>
+            <?php	echo $post['CreatedAt']; ?>
+        </small>
+
+        <p>
+            <?php	echo $post['Content']; ?>
+
+        </p>
+        <?php if(!empty($post['Image'])){ ?>
+
+            <img id="imageAvatar" src="assets/images/<?php  echo $post['Image']; ?>" alt=''/>
+
+
+        <?php } ?>
+    </div>
+
+</article>
+
+
+
 
 
 
