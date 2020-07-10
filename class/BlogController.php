@@ -11,4 +11,12 @@ class BlogController{
         include 'views/blog.phtml';
     }
 
+    public function afficherTousArticles(){
+        $postmodel2 = new PostModel;
+        $posts = $postmodel2->getAllPosts();
+        $page= 'blog';
+        include 'views/header.phtml';
+        include 'views/blog.phtml';
+    }
+
 }

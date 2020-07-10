@@ -22,10 +22,13 @@ BLOG
 }
 .wrapper_blog{
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(8,1fr);
+}
+.wrapper_blog_zero{
+    grid-column: 2;
 }
 .wrapper_blog_one{
-    grid-column: 3/5;
+    grid-column: 3/6;
     border:1px grey solid;
     padding: 10px;
     text-align: center;
@@ -34,9 +37,14 @@ BLOG
 .wrapper_blog_one:hover{
     box-shadow: 2px 2px 2px grey;
 }
+
+
 .title_post{
 color: #ffcc5b;
     font-size: 1.2rem;
+}
+#texteUserSession{
+    color: brown;
 }
 
 /*****************************************HEADER**********************************************/
@@ -124,7 +132,7 @@ nav li:hover{
 .contain{
      position:fixed;
      z-index:2;
-     top:7%;
+     top:12%;
      left:21%;
  }
 @keyframes Test{
@@ -164,7 +172,7 @@ h2{
 }
 .box:hover
 {
-    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 7px rgba(92, 78, 78, 0.15);
 }
 figcaption{
     text-align: center;
@@ -220,7 +228,7 @@ figcaption{
     border:1px lightgrey solid;
     background-color: #f7f7f7;
 }
-#projets,
+#techno,
 #contact{
     margin-top:6%;
     border-top:1px lightgrey solid;
@@ -381,7 +389,7 @@ footer{
 /**************************************Responsive 1550**************************************/
 @media(max-width:1550px){
     .contain{
-        top:13%;
+        top:9%;
         left:15%;
     }
     #svg2{
@@ -406,7 +414,7 @@ footer{
         font-size: 3.5rem;
     }
     .contain{
-        top:4%;
+        top:0%;
         left:4%;
     }
     #svg2{

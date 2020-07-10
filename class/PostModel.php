@@ -4,7 +4,11 @@ class PostModel extends AbstractModel{
 
 
     public function getAllPosts(){
-        $sql = 'SELECT post.Id,Title,Content,Image,CreatedAt,Category FROM post INNER JOIN category ON post.Category = category.Id ORDER BY CreatedAt DESC';
+        $sql = 'SELECT post.Id,Title,Content,Image,CreatedAt,Category 
+                FROM post 
+                INNER JOIN category 
+                ON post.Category = category.Id 
+                ORDER BY CreatedAt DESC';
 
         return $this->db->queryAll($sql);
     }

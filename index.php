@@ -15,7 +15,31 @@ switch($page)
         break;
     case 'blog' :
         $controller = new BlogController();
-        $controller->afficher(1);
+        $controller->afficherTousArticles();
+        break;
+    case 'user' :
+        $controller = new UserController();
+        $controller->creerUnUtilisateur();
+        break;
+    case 'signin':
+        $controller = new SigninController();
+
+        if(!empty($_POST)){
+            $controller->signin();
+
+        }
+        else{$controller->index();
+        }
+        break;
+
+    case 'signout':
+        $controller = new SignoutController();
+        $controller->index();
+        break;
+
+    case 'signup' :
+        $controller = new SignupController();
+        $controller->index();
         break;
     default :
 
