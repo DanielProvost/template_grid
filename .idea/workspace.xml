@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95c81331-d792-489c-8eb2-335491a77d98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/daniel_provost.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/FlashBag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/SigninController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/SignoutController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/SignupController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/UserModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/UserSession.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layout.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/signin_form.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/signup_form.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/PostModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/PostModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/blog.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/views/blog.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/main.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/views/main.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,19 +35,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\template_grid\admin\views" />
-      <recent name="C:\wamp64\www\template_grid\assets\images" />
-      <recent name="C:\wamp64\www\template_grid" />
-      <recent name="C:\wamp64\www\template_grid\assets\css" />
-      <recent name="C:\wamp64\www\template_grid\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\template_grid\assets\images" />
       <recent name="C:\wamp64\www\template_grid\views" />
       <recent name="C:\wamp64\www\template_grid\class" />
       <recent name="C:\wamp64\www\template_grid\admin\class" />
       <recent name="C:\wamp64\www\template_grid\admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\template_grid\admin\views" />
+      <recent name="C:\wamp64\www\template_grid\assets\images" />
+      <recent name="C:\wamp64\www\template_grid" />
+      <recent name="C:\wamp64\www\template_grid\assets\css" />
+      <recent name="C:\wamp64\www\template_grid\assets" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -115,7 +99,8 @@
       <workItem from="1593676768987" duration="733000" />
       <workItem from="1593766548608" duration="1231000" />
       <workItem from="1594048666960" duration="20000" />
-      <workItem from="1594386860993" duration="2126000" />
+      <workItem from="1594386860993" duration="2694000" />
+      <workItem from="1594389911681" duration="6726000" />
     </task>
     <servers />
   </component>
